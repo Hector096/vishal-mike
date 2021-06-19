@@ -40,7 +40,7 @@ ul li{
 h2{
     text-align: center;
 }
-#form-control{
+#form{
     width: 50%;
     margin: 0 auto;
     display: flex;
@@ -63,6 +63,11 @@ h2{
 }
 #video{
     width: 70%;
-    margin: 0 auto;
+    margin: 0 20%;
+    margin-top: 3em;
     
 }
+
+
+
+
