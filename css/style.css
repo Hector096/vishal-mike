@@ -65,9 +65,35 @@ h2{
     width: 70%;
     margin: 0 20%;
     margin-top: 3em;
+    margin-bottom: 4em;
     
 }
 
+#icon{
+    margin-top: 2em;
+    width: 3.2em;;
+}
+
+
+
+.iconset{
+    display: inline-block;
+}
+
+
+.seticon{
+    display: flex;
+    flex-direction: row; 
+}
+
+.seticon div{
+    margin-right: 2.2em;   
+}
+
+.containicon{
+    width: 80%;
+    margin: 0 auto;
+}
 
 
 
