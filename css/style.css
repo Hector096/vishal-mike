@@ -1,179 +1,176 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap');
 
-body{
-    margin: 0;
-    padding: 0;
-    background-color: #eee;
-    font-family: 'Lato', sans-serif;
-    overflow-x: hidden;
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
 }
 
 *{
- box-sizing: border-box;   
+  box-sizing: border-box;
 }
 
-div,footer{
-    display: block;
+div,footer {
+  display: block;
 }
 
-#header-img{
-    margin-top: 2.3em;
-    margin-left: 2em;
-    width: 20em;
-    height: 2.5em;
+#header-img {
+  margin-top: 2.3em;
+  margin-left: 2em;
+  width: 20em;
+  height: 2.5em;
 }
 
-#header{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
-}
-#nav-link ul{
-    display: flex;
-    flex-direction: row;
-}
-ul li{
-    list-style: none;
-    margin: 2.3em 0.7em 0 0;
+#header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
 }
 
-h2{
-    text-align: center;
-}
-#form{
-    width: 50%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
+#nav-link1 {
+  display: flex;
+  flex-direction: row;
 }
 
-#search{
-    height: 2.5em;
-    width: 80%;
-    margin: 0 auto;
-}
-.btn,.btn2{
-    width: 40%;
-    margin: 0 auto;
-    margin-top: 1.3em;
-    margin-bottom: 8em;
-    background-color: #f1c40f;
-    font-weight: bolder;
-    height: 2.2em;
-    border: none;
-}
-#video{
-    width: 40%;
-    height: 400px;
-    margin: 0 30%;
-    margin-top: 3em;
-    margin-bottom: 4em;
-    
+#nav-link ul {
+  display: flex;
+  flex-direction: row;
 }
 
-#icon{
-    margin-top: 2em;
-    width: 3.2em;;
+ul li {
+  list-style: none;
+  margin: 2.3em 0.7em 0 0;
 }
 
-
-
-.iconset{
-    display: inline-block;
+h2 {
+  text-align: center;
 }
 
-
-.seticon{
-    display: flex;
-    flex-direction: row; 
+#form {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.seticon div{
-    margin-right: 2.2em;   
+#search {
+  height: 2.5em;
+  width: 80%;
+  margin: 0 auto;
 }
 
-.containicon{
-    width: 80%;
-    margin: 0 auto;
+.btn .btn2 {
+  width: 40%;
+  margin: 0 auto;
+  margin-top: 1.3em;
+  margin-bottom: 8em;
+  background-color: #f1c40f;
+  font-weight: bolder;
+  height: 2.2em;
+  border: none;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+#video {
+  width: 560px;
+  height: 350px;
+  margin: 0 30%;
+  margin-top: 3em;
+  margin-bottom: 4em;
 }
 
-.container div{
-
-margin: 0 auto;
-font-size: 0.9rem;
-margin-bottom: 2em;
-
-}
-.borderline{
-    border: 1px solid black;  
+#icon {
+  margin-top: 2em;
+  width: 3.2em;;
 }
 
-
-div h4{
-    font-size: 1.2rem;
-    width: 100%;
-    text-align: center;
+.iconset {
+  display: inline-block;
 }
 
-
-div p{
-    font-size: 1.1rem;
-    text-align: center;
+.seticon {
+  display: flex;
+  flex-direction: row;
 }
 
-div h3{
-    text-align: center;
+.seticon div {
+  margin-right: 2.2em;
 }
 
+.containicon {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
 
+.container div {
+  margin: 0 auto;
+  font-size: 0.9rem;
+  margin-bottom: 2em;
+}
 
-.btn2{
+.borderline {
+  border: 1px solid black;  
+}
+
+div h4 {
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+div p {
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+div h3 {
+  text-align: center;
+}
+
+.btn2 {
  margin: 0 8em;
  height: 3.3em;
  margin-top: 1em;
  margin-bottom: .9em;
-
 }
 
-.btn2 a{
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+.btn2 a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
 }
 
-.btn2:hover{
-    background-color: #e9b60f;
-    text-decoration:none;
+.btn2:hover {
+  background-color: #e9b60f;
+  text-decoration:none;
 }
 
-footer{
-  
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    background-color: #ddd;
-}
-.footer-control{
-    width: 40%;
-    text-align: right;
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: #ddd;
 }
 
+.footer-control {
+  width: 40%;
+  text-align: right;
+}
 
-/* Media Query */
-@media (min-width:820px){
-    .container{
-        flex-direction: column;
-    }
+@media (min-width:820px) {
 
+.container {
+  flex-direction: column;
+}
 
 }
