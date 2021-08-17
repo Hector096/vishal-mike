@@ -62,7 +62,7 @@ h2 {
   margin: 0 auto;
 }
 
-.btn .btn2 {
+.btn {
   width: 40%;
   margin: 0 auto;
   margin-top: 1.3em;
@@ -155,6 +155,11 @@ a {
   text-decoration: none;
 }
 
+.footer-control {
+  width: 40%;
+  text-align: right;
+}
+
 footer {
   display: flex;
   flex-direction: column;
@@ -162,13 +167,8 @@ footer {
   background-color: #ddd;
 }
 
-.footer-control {
-  width: 40%;
-  text-align: right;
-}
-
-@media (min-width:820px) {
+@media (min-width: 820px) {
   .container {
-  flex-direction: column;
-}
+    flex-direction: column;
+  }
 }
