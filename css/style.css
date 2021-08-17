@@ -155,16 +155,16 @@ a {
   text-decoration: none;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #ddd;
+}
+
 .footer-control {
   width: 40%;
   text-align: right;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-end;
-  background-color: #ddd;
 }
 
 @media (min-width: 820px) {
