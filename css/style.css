@@ -86,6 +86,11 @@ h2 {
   width: 3.2em;;
 }
 
+#icon1 {
+    margin-top: 2em;
+    width: 3.2em;;
+  }
+
 .iconset {
   display: inline-block;
 }
